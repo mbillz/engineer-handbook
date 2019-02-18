@@ -43,19 +43,43 @@ _A guide and resource for modern engineering_
 
 ## Style Guide :nail_care:
 
+<a name="style--react"></a><a name="2.1"></a>
+
+- [2.2](#style--react) **React**
+
+  <a name="react--frameworks"></a><a name="2.1.1"></a>
+
+  - [2.1.1](#react--frameworks) **Frameworks**
+
+    - [Gatsby - Static Site Generator](https://www.gatsbyjs.org/)
+
+      - A React based static site generator for creating speed optimized web apps. It builds into static HTML files, but it is simple to implement GraphQL or REST request for a dynamic user experience.
+
+    - [NextJS - Server Side Rendering Framework](https://nextjs.org/)
+
+      - A React based framework that builds into a Node app allowing a developer to easily implement routing and server side rendering without going through the trouble of building their own custom Express server.
+
+  <a name="react--modern-practices"></a><a name="2.1.2"></a>
+
+  - [2.1.2](#react--modern-practices) **Modern Practices**
+
+    - [Hooks](https://reactjs.org/docs/hooks-intro.html)
+
+      - Hooks enable a developer to use state and lifecycle methods without using ES6 classes.
+
 <a name="style--wordpress"></a><a name="2.2"></a>
 
 - [2.1](#style--wordpress) **Wordpress**
 
-  <a name="wordpress--framework"></a><a name="2.1.1"></a>
+  <a name="wordpress--framework"></a><a name="2.2.1"></a>
 
-  - [2.1.1](#wordpress--framework) **Framework**
+  - [2.2.1](#wordpress--framework) **Framework**
 
     - A modern Wordpress framework written by Matt Billings is used to allow for modern JS & CSS features to be utilized. The framework is available [here](https://github.com/mbillz/wordpress-starter).
 
-  <a name="wordpress--structure"></a><a name="2.1.2"></a>
+  <a name="wordpress--structure"></a><a name="2.2.2"></a>
 
-  - [2.1.2](#wordpress--structure) **Structure**
+  - [2.2.2](#wordpress--structure) **Structure**
 
     - Theme development takes place in `/src`. JavaScript is written in `/src/js/` and CSS is written in `/src/css`. The Wordpress theme is developed in `/src/theme/`.
 
@@ -69,9 +93,9 @@ _A guide and resource for modern engineering_
 
     - When necessary, any vendor CSS or JS files are placed in `/src/theme/vendor` (as further described below).
 
-  <a name="wordpress--css"></a><a name="2.1.3"></a>
+  <a name="wordpress--css"></a><a name="2.2.3"></a>
 
-  - [2.1.3](#wordpress--css) **CSS**
+  - [2.2.3](#wordpress--css) **CSS**
 
     - CSS is organized and written in a modular structure. All files are imported into `/src/css/index.css`. Organize files by feature or page. A reset.css is included in the repository.
 
@@ -85,9 +109,9 @@ _A guide and resource for modern engineering_
 
     - Third party CSS will be installed by npm and imported in `index.css`. If the package isn't available by npm, place the css file in a `/src/theme/vendor` and enqueue the CSS file in `/src/theme/functions.php`. Use conditional statements to only enqueue external files when needed.
 
-  <a name="wordpress--js"></a><a name="2.1.4"></a>
+  <a name="wordpress--js"></a><a name="2.2.4"></a>
 
-  - [2.1.4](#wordpress--js) **JavaScript**
+  - [2.2.4](#wordpress--js) **JavaScript**
 
     - JS is organized and written in a modular structure. All files are imported into `/src/js/index.js`. Organized files by feature.
 
@@ -99,9 +123,9 @@ _A guide and resource for modern engineering_
 
     - Third party JS libraries will be installed with npm and import in the relevant JS file. If the package isn't available by npm, place the css file in a `/src/theme/vendor` and enqueue the CSS file in `/src/theme/functions.php`. Use conditional statements to only enqueue external files when needed.
 
-  <a name="wordpress--fonts"></a><a name="2.1.5"></a>
+  <a name="wordpress--fonts"></a><a name="2.2.5"></a>
 
-  - [2.1.5](#wordpress--fonts) **Fonts**
+  - [2.2.5](#wordpress--fonts) **Fonts**
 
     - Custom fonts are placed in `/src/fonts`.
 
