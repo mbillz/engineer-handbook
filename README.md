@@ -1,6 +1,6 @@
-# BK Engineer Handbook
+# Engineer Handbook
 
-_A guide and resource for the Brand Knew engineering team_
+_A guide and resource for modern engineering_
 
 ## Table of Contents
 
