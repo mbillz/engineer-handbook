@@ -6,6 +6,7 @@ _A guide and resource for modern engineering_
 
 1.  [Development Tools](#tools) :wrench:
 1.  [Style Guide](#style) :nail_care:
+1.  [Server Management Resources](#server) :cloud:
 
 <a name="tools"></a>
 
@@ -13,7 +14,7 @@ _A guide and resource for modern engineering_
 
 <a name="tools--editor"></a><a name="1.1"></a>
 
-- [1.1](#tools-editor) **Code Editor**
+- [1.1](#tools--editor) **Code Editor**
 
   - [Visual Studio Code](https://code.visualstudio.com/)
 
@@ -130,3 +131,27 @@ _A guide and resource for modern engineering_
     - Custom fonts are placed in `/src/fonts`.
 
     - Only .woff and .woff2 are necessary in modern browsers.
+
+<a name="server"></a>
+
+## Server Management Resources :cloud:
+
+<a name="server--ubuntu"></a><a name="3.1"></a>
+
+- [3.1](#server--ubuntu) **Ubuntu**
+
+  - [How To Install Nginx on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04)
+
+  - [How To Install Node.js on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04)
+
+  - [How To Set Up a Node.js Application for Production on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-18-04)
+
+  - [How To Install Linux, Apache, MySQL, PHP (LAMP) stack on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04)
+
+- [3.2](#server--general) **General**
+
+  - [How To Add Swap Space on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-18-04)
+
+* [3.3](#server--lets-encrypt) **Lets Encrypt**
+
+  - [How To Secure Nginx with Let's Encrypt on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-18-04)
